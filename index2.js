@@ -74,7 +74,7 @@ function determinewiner(playeroption, computeroption) {
     return "✨YOU WON✨";
   } else {
     computerscore++;
-    return "COMPUTER WON";
+    return "COMP WON";
   }
 }
 
