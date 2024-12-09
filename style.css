@@ -150,7 +150,7 @@ body {
 }
 .you-score {
   display: inline;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 .user-score {
   display: inline;
