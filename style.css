@@ -1,0 +1,179 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.box2 {
+  border: 1px solid black;
+  display: flex;
+  background-color: navajowhite;
+}
+.scoreboard {
+  border: 1px solid black;
+  text-align: center;
+  padding-bottom: 1rem;
+  background-color: khaki;
+}
+.game-title {
+  text-align: center;
+  font-size: 3rem;
+  background-color: lightpink;
+  margin-top: 0;
+  border-radius: 24px;
+}
+.game-rule-title {
+  text-decoration: underline;
+  margin-left: 1rem;
+
+}
+.description {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+.best {
+  text-align: center;
+  font-size: 3rem;
+}
+.name-enter {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.player-name {
+  border: 1px solid black;
+  height: 20px;
+}
+.play-now {
+  font-size: 1rem;
+  border: 1px solid black;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  padding: 0.3rem;
+  margin: 1rem;
+  box-shadow: 2px 2px 2px black;
+}
+.main-image {
+  height: 400px;
+  width: 100%;
+  max-width: 500px;
+}
+.box-main-page {
+  text-align: center;
+}
+.start-alert {
+  font-size: 3rem;
+  color: darkcyan;
+}
+
+.comp-title {
+  border: 1px solid black;
+  width: fit-content;
+
+  padding: 0.2rem;
+  border-radius: 12px;
+}
+.play-title {
+  border: 1px solid black;
+  width: fit-content;
+  margin-left: auto;
+
+  padding: 0.2rem;
+  border-radius: 12px;
+}
+.player-box {
+  margin-left: auto;
+
+  margin-right: 0.4rem;
+}
+
+.game-status {
+  text-align: center;
+  color: rgb(6, 105, 138);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border: 1px solid black;
+  width: fit-content;
+  gap: 1rem;
+  justify-content: center;
+  background-color: lightgreen;
+  padding: 1rem;
+}
+.rock {
+  height: 180px;
+  border: 1px solid black;
+}
+.paper {
+  height: 180px;
+  border: 1px solid black;
+}
+.scissor {
+  height: 180px;
+  border: 1px solid black;
+}
+.display-name {
+  text-align: center;
+}
+.go-back {
+  border: 1px solid black;
+  font-size: 1.5rem;
+  margin: 1rem;
+  background-color: aqua;
+  border-radius: 15px;
+  padding: 0.2rem;
+  box-shadow: 2px 2px 2px black;
+}
+.computer-image {
+  max-width: 170px;
+
+  border: 1px solid black;
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.player-image {
+  max-width: 170px;
+  border: 1px solid black;
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.comp-score {
+  display: inline;
+}
+.computer-score {
+  display: inline;
+}
+.you-score {
+  display: inline;
+  margin-left: 1rem;
+}
+.user-score {
+  display: inline;
+}
+.scoreboard-title {
+  border: 1px solid black;
+  width: fit-content;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+  border-radius: 12px;
+}
+@media (width<=768px) {
+  .images img {
+    width: 90px;
+  }
+}
+
+.display-box {
+  margin: auto;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
